@@ -1,0 +1,26 @@
+.item {
+    display: flex;
+    align-items: center;
+    transition: .3s background ease-in;
+    display: flex;
+    gap: 8px;
+    padding: 8px 0px 8px 12px;
+    color: #3F4254;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #E4EAFF;
+}
+
+
+.selected {
+    border: 2px solid #4971FF;
+}
+
+.selected:hover {
+    background-color: unset;
+}
